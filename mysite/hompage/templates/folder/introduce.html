@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,800;0,900;1,200;1,400;1,500;1,600;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="frame">
+      <nav class="navigator">
+        <h3 class="site-name">안찬웅(Chan Ung An)</h3>
+        <ul>
+          <li>
+            <a class="nav-menu" href="index.html" class="nav-menu">WORK</a>
+          </li>
+          <li>
+            <a class="nav-menu" href="info.html" class="nav-menu">INFO</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="profile-section">
+        <img id="profile-picture" src="picture.jpg" />
+        <div class="introduction">
+          <h2>ABOUT ME</h2>
+          <p>
+            Back-End Engineer, Web Developer를 준비중인 안찬웅입니다.<br />
+            학부과정에서 전반적인 CS기초지식과 기초 프로그래밍언어를 공부하였고, <br />향후 
+            Javascript와 Spring을 공부하고, node.js를 공부할 예정입니다. 저의 장점은 개발자이지만
+            기획능력이 있다는 것입니다. 코딩만 하는 개발자가 아니라 기획자나 디자이너가 할 수 있는 
+            기획 및 디자이너 또한 다룰 수 있는 개발자가 되고 싶습니다. 도태되지 않고, 시대에 흐름에 따라가는 
+            트랜디한 개발자가 되기위해 매일 공부하고 발전하는 모습을 지켜봐주세요.  
+          </p>
+          <h2>Profile</h2>
+          <p id="Profile">
+            🔥1998년 01월 15일 출생<br />
+            🔥단국대학교 공과대학 소프트웨어학과
+            <br />
+            🔥2016.03 ~ 2023.08(졸업예정)<br />
+            🔥공과대학 학생회 (2016) <br />
+            🔥공과대학 소프트웨어학과 학생회 (2017) <br />
+            🔥육군병장 만기전역 (2018.04.16 ~ 2019.12.12)</p>
+          </p>
+        </div>
+      </div>
+
+      <h5 class="hobby-menu">Hobby</h5>
+
+      <div class="hobby-section"></div>
+      <div class="hobby">
+        <img class="hobby-icon" src="sebu.jpg" />
+        <div class="hobby-intro">
+          <h4 class="hobby-name">세부여행 </h4>
+          <p class="hobby-exp">
+            필리핀에 위치한 세부는 유명한 휴양지중 하나이다. 크림슨 리조트에서 숙박했었는데,  수만평에 이르는 리조트로 
+            지금까지 간 리조트중에 가장 좋았다. 이번 겨울에 사이판이나 괌 같은 휴양지를 꼭 가고싶다.
+          </p>
+        </div>
+      </div>
+
+      <div class="hobby">
+        <img class="hobby-icon" src="ping-pong.jpg" />
+        <div class="hobby-intro">
+          <h4 class="hobby-name">탁구</h4>
+          <p class="hobby-exp">
+            2016년 단국대학교 탁구부에 들어갔고, 경인지역 탁구대회에서 복식4강 단식8강을 기록했다. 
+          </p>
+        </div>
+      </div> 
+
+      <div class="hobby">
+        <img class="hobby-icon" src="game.jpg" />
+        <div class="hobby-intro">
+          <h4 class="hobby-name">온라인 게임</h4>
+          <p class="hobby-exp">
+            넥슨의 CrazyAcade 공식대회를 3회우승하였다. (2016.08 ~ 2018.02) <br />
+            드로도네스트에 오토체스 게임 세계대회 팀전을 우승했다. (2021.06)
+          </p>
+        </div>
+      </div>
+      <footer class="footer"></footer>
+    </div>
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pCb4YhdiDjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
